@@ -15,6 +15,7 @@ void nopX(const char* origen, char* destino){
 
 int main(){
 	char resultado[100];
+	printf("Hola mundo");
 	nopX("xxxbasurxa", resultado);
 	printf("%s", resultado);
 	return 0;
